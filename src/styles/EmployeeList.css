@@ -1,0 +1,88 @@
+/* src/pages/EmployeeList.css */
+
+.employee-list-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-employee {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .total-employees {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .employee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    opacity: 0.8;
+  }
+  

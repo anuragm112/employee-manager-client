@@ -1,0 +1,57 @@
+/* src/pages/EditEmployee.css */
+.edit-employee-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .edit-employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-employee-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-employee-form input[type="text"],
+  .edit-employee-form input[type="email"],
+  .edit-employee-form input[type="file"],
+  .edit-employee-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .edit-employee-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-employee-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
